@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/pi/Silkscreen-Regular.woff2') format('woff2'),
+        url('../fonts/pi/Silkscreen-Regular.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+    font-family: 'Raleway';
+    src: url('fonts/pi/Silkscreen-Bold.woff2') format('woff2'),
+        url('fonts/pi/Silkscreen-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+*{
+    color: rgb(255, 255, 255);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body{
+	font-family: 'Raleway';
+    background-color: #000;
+    margin: 0px;
+    padding-top: 150px;
+}
+
+
+*{
+	font-size:18px;
+    box-sizing: border-box;
+}
+
+
+
+main > h1{
+	font-size: 3rem;
+}
+
+
+section > h1{
+	font-size: 2rem;
+
+}
+
+figcaption{
+	font-size: 0.9rem;
+
+}
+
+figure{
+    margin: 0;
+}
+
+p{
+	line-height: 1.5;
+}
+
+    header{
+        display: fixed;
+        background-image: url("https://media4.giphy.com/media/h58dtf5vTpjulO4M5o/giphy.gif?cid=ecf05e47e1w5jbsj26c3769wermyongrkowansgwd96qsru4&rid=giphy.gif&ct=g");
+        background-size: cover;
+        background-position: bottom;
+        color: rgb(255, 255, 255);
+        padding: 30px;
+        border: solid 20px black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+
+    }
+
+    header nav a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        display: block;
+        padding: 1em;
+        }
+
+    header nav a:hover{
+        text-decoration: underline;
+        text-transform: uppercase;
+        display: block;
+        color: rgb(255, 251, 0);
+        transform: translateY(-10px) translateX(5px);
+        transition: color , 0.5s;
+    }
+
+    footer{
+        background-image: url("https://media4.giphy.com/media/9zExs2Q2h1EHfE4P6G/giphy.gif?cid=ecf05e47ox1b9v53odphdh16a3q20cz5c9mlzn28cltkpcdf&rid=giphy.gif&ct=g");
+        background-size: cover;
+        background-position: bottom;
+        color: rgb(255, 255, 255);
+        padding: 30px; 
+        border: solid 20px black;
+    }
+
+    footer p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+main{
+    padding: 30px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.banner{
+    height : 100vh;
+    background-image: url("https://media4.giphy.com/media/h58dtf5vTpjulO4M5o/giphy.gif?cid=ecf05e47e1w5jbsj26c3769wermyongrkowansgwd96qsru4&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+
+.BannerBottom{
+    height : 100vh;
+    background-image: url("https://media4.giphy.com/media/9zExs2Q2h1EHfE4P6G/giphy.gif?cid=ecf05e47ox1b9v53odphdh16a3q20cz5c9mlzn28cltkpcdf&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+table{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(37, 37, 37);
+    border-collapse: collapse;
+    width:  100%;
+}
+
+        td, th{
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(43, 43, 43);
+            padding: 1em;
+        }
+
+            th{
+                background-image: url("https://media3.giphy.com/media/pylNZOmEWUMwGXdzQj/giphy.gif?cid=ecf05e47e1w5jbsj26c3769wermyongrkowansgwd96qsru4&rid=giphy.gif&ct=g");
+                background-position: center;
+                background-size: 40vh;
+                height: 10vh;
+                
+            }
+            
+            td{
+                background-image: url("https://media3.giphy.com/media/KETTXY34XNgWZBxvqx/giphy.gif?cid=ecf05e47oe3rtf9x3fcquhuiszgndg3x3a88u2onjzcm5ksc&rid=giphy.gif&ct=g");
+                background-position: bottom;
+                background-size: cover;
+                height: 30vh;
+            }
+
+
+        header .container{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+            header nav ul{
+                display: flex;
+            }
+
+                .flexbox{
+                    display: flex;
+                    align-items: center;
+                }
+
+                    .flexbox figure{
+                        flex-basis: 35%;
+                        size: 10%;
+                    }
+
+                        .flexbox p{
+                            flex-basis: 65%;
+                        }
+
+                            figure img{
+                                width: 75%;
+                            }
+
+
+
+
+
+
+.map1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+            /* definition des style mobile*/
+            /* definition des style mobile*/
+
+
+
+
+@media screen and (max-width: 1050px){
+
+    html{
+        font-size: 16px;
+    }
+
+    body{
+        padding-top: 110px;
+    }
+
+    .flexbox{
+        flex-direction: column;
+    }
+
+    .tablecontainer{
+        overflow: scroll;
+    }
+
+    *{
+        overflow-x: hidden;
+    }
+
+    header{
+        background-position: center;
+        background-image: cover;
+    }
+
+    .container img{
+        width: 40vh;
+        position: center;
+    }
+
+    header nav a{
+        display: none;
+    }
+
+    th{
+       height: 15vh;
+    }
+
+    td{
+        height: 30vh;
+    }
+
+    footer{
+        background-position: bottom;
+        background-size: 90vh;
+    }
+}
+
+
